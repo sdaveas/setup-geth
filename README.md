@@ -1,5 +1,16 @@
 # setup-geth
 Set up geth backend for testing
 
-# Run resetnode.sh to initialize/reset and start a new backend
-# Run startnode.sh to start the previous instance of the closed backend
+# Initialization 
+Run
+```
+$ resetnode.sh GETH_DATADIR (default is current dir)
+```
+to initialize/reset and start a new backend
+
+# Start
+Run
+```
+$ startnode.sh GETH_DATADIR (default is current dir)
+```
+to restart the previous session

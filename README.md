@@ -1,22 +1,22 @@
 # setup-geth
-Set up geth backend for testing
+Set up geth for intense backend testing. Be sure you have [geth](https://geth.ethereum.org/) installed :)
 
 ## Initialization 
 Run
 ```
-$ resetnode.sh GETH_DATADIR (default is current dir)
+$ resetnode.sh
 ```
-to initialize/reset and start a new backend
+to start a new clean backend
 
 ## Start
 Run
 ```
-$ startnode.sh GETH_DATADIR (default is current dir)
+$ startnode.sh
 ```
-to restart the previous session
+to start an new session or continue the previous one
 
 # Usage
-You can utilize backend calls as following:
+You can utilize backend calls as follows:
 ```py
 from web3 import Web3, HTTPProvider, geth
 
